@@ -1,0 +1,32 @@
+{
+  "description": "The Workflow package for manage state and transition",
+  "name": "jawaraegov/workflows",
+  "type": "library",
+  "homepage": "https://github.com/etanasia/workflows",
+  "authors": [
+    {
+      "name": "etanasia",
+      "email": "unme.loved@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/etanasia/workflows"
+  },
+  "require": {
+    "php": ">=5.6.4",
+    "illuminate/support": "5.4.*",
+    "laravelcollective/html": "^5.4.0",
+    "that0n3guy/transliteration": "2.0.x"
+  },
+  "autoload": {
+        "files": [
+            "src/helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Jawaraegov\\Workflows\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
