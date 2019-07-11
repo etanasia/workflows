@@ -1,6 +1,5 @@
 Welcome to Jawaraegov/workflows!
 ===================
-[![codecov](https://codecov.io/gh/etanasia/workflows/branch/master/graph/badge.svg)](https://codecov.io/gh/etanasia/workflows)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/etanasia/workflows/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/etanasia/workflows/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/etanasia/workflows/badges/build.png?b=master)](https://scrutinizer-ci.com/g/etanasia/workflows/build-status/master)
 
