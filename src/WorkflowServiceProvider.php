@@ -35,6 +35,7 @@ class WorkflowServiceProvider extends ServiceProvider
         $this->migrationHandle();
         $this->cssHandle();
         $this->jsHandle();
+		$this->commands('Jawaraegov\Workflows\Console\Commands\SeedCommand');
     }
 
     /**
