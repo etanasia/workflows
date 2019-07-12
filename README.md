@@ -98,6 +98,7 @@ $ php artisan vendor:publish --tag=workflow_views
 $ php artisan vendor:publish --tag=workflow_css
 $ php artisan vendor:publish --tag=workflow_js
 $ php artisan migrate
+$ php artisan jawaraegov:workflow:seed
 ```
 
 ## Contoh penggunaan :
