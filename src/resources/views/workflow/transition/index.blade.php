@@ -41,12 +41,12 @@
 														@endif
 													<td>
 													@if($transition->status == 0)
-														<a class="view" href="{{route('transitionActive',$transition->id)}}
+														<a class="btn btn-info btn-sm" href="{{route('transitionActive',$transition->id)}}
 														">Aktif</a>
 													@elseif($transition->status == 1)
-														<a class="delete" href="{{route('transitionDeactive',$transition->id)}}">Non Aktif</a>
+														<a class="btn btn-warning btn-sm" href="{{route('transitionDeactive',$transition->id)}}">Non Aktif</a>
 													@endif
-													<a class="edit" href="{{route('transitionFormEdit',$transition->id)}}">Edit</a>
+													<a class="btn btn-success btn-sm" href="{{route('transitionFormEdit',$transition->id)}}">Edit</a>
 													</td>
 												</tr>
 											@endforeach

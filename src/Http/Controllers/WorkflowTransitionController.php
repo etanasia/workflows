@@ -32,8 +32,8 @@ class WorkflowTransitionController extends Controller
     {
         $name = str_replace('_','-',\Transliteration::clean_filename(strtolower($request->label)));
         $label = $request->label;
-        $from = join(',',$request->from);
-        $to = join(',',$request->to);
+        $from = $request->from;
+        $to = $request->to;
         $message = $request->message;
 
         try
@@ -71,7 +71,7 @@ class WorkflowTransitionController extends Controller
     {
         $name = str_replace('_','-',\Transliteration::clean_filename(strtolower($request->label)));
         $label = $request->label;
-        $from = join(',',$request->from);
+        $from = $request->from;
         $to = $request->to;
 
         try

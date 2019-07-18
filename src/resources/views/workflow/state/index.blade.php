@@ -36,11 +36,11 @@
                                   @endif
                               <td>
                               @if($state->status == 0)
-                                  <a class="view" href="{{ route('stateActive',$state->id) }}">Aktif</a> |
+                                  <a class="btn btn-info btn-sm" href="{{ route('stateActive',$state->id) }}">Aktif</a> |
                               @elseif($state->status == 1)
-                                  <a class="delete" href="{{ route('stateDeactive',$state->id) }}">Non Aktif</a> |
+                                  <a class="btn btn-warning btn-sm" href="{{ route('stateDeactive',$state->id) }}">Non Aktif</a> |
                               @endif
-                              <a class="edit" href="{{ route('stateFormEdit',$state->id) }}">Edit</a>
+                              <a class="btn btn-success btn-sm" href="{{ route('stateFormEdit',$state->id) }}">Edit</a>
                               </td>
                           </tr>
                       @endforeach

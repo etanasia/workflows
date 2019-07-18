@@ -29,7 +29,7 @@
                                 <td>{{ $workflow->name }}</td>
                                 <td>{{ $workflow->label }}</td>
                                 <td>{{ $workflow->content_type }}</td>
-                                <td><a class="edit" href="{{ route('workflowFormEdit',$workflow->id) }}">Edit</a></td>
+                                <td><a class="btn btn-info btn-sm" href="{{ route('workflowFormEdit',$workflow->id) }}">Edit</a></td>
                             </tr>
                         @endforeach
                     </table>

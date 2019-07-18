@@ -16,7 +16,7 @@
 								    {!! Form::text('label') !!}
 										<br>
 										{!! Form::label('from','From :') !!}<br>
-										<select multiple="multiple" name="from[]" id="from">
+										<select name="from" id="from">
 											<option value="">-Select-</option>
 											@foreach($states as $state)
 												<option value="{{ $state->label }}">{{ $state->label }}</option>
@@ -24,7 +24,7 @@
 										</select>
 										<br>
 										{!! Form::label('to','To :') !!}<br>
-										<select multiple="multiple" name="to[]" id="from">
+										<select name="to" id="from">
 											<option value="">-Select-</option>
 											@foreach($states as $state)
 												<option value="{{ $state->label }}">{{ $state->label }}</option>

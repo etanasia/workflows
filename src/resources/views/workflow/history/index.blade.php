@@ -30,8 +30,8 @@
                                   <td>{{ $history->getWorkflow->content_type }}</td>
                                   <td>{{ $history->getStateFrom->label }}</td>
                                   <td>{{ $history->getStateTo->label }}</td>
- +                                <td>{{ $dates[$key] }}</td>
- +                                <td>{{ $history->getUserName->name }}</td>
+                                  <td>{{ $dates[$key] }}</td>
+                                  <td>{{ $history->getUserName->name }}</td>
                               </tr>
                           @endforeach
                     </table>
